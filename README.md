@@ -2,6 +2,7 @@
 Projeto interdisciplinar entre Fundamentos de Engenharia de Software e Algoritmos e Estruturas de Dados I.
 
 CRUD de Pedidos — Módulo de Sofia Figueiredo
+
 Descrição:
 Este módulo implementa o CRUD (Create, Read, Update, Delete) para gerenciar os pedidos do sistema de entregas.
 Permite cadastrar, listar, atualizar e excluir pedidos armazenados em um vetor estático.
