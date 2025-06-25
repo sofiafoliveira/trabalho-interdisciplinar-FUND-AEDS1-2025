@@ -116,3 +116,39 @@ void excluirVeiculo() {
     printf("Veiculo com a placa informada nao encontrado.\n");
 }
 
+int main() {
+    int opcao;
+
+    do {
+        printf("\n=== MENU DE VEICULOS ===\n");
+        printf("1. Cadastrar veiculo\n");
+        printf("2. Listar veiculos\n");
+        printf("3. Atualizar veiculo\n");
+        printf("4. Excluir veiculo\n");
+        printf("0. Sair\n");
+        printf("Escolha uma opcao: ");
+        scanf("%d", &opcao);
+
+        switch (opcao) {
+            case 1:
+                cadastrarVeiculo();
+                break;
+            case 2:
+                listarVeiculos();
+                break;
+            case 3:
+                atualizarVeiculo();
+                break;
+            case 4:
+                excluirVeiculo();
+                break;
+            case 0:
+                printf("Encerrando...\n");
+                break;
+            default:
+                printf("Opcao invalida. Tente novamente.\n");
+        }
+    } while (opcao != 0);
+
+    return 0;
+}
