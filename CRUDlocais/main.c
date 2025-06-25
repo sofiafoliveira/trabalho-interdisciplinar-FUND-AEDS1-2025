@@ -104,3 +104,39 @@ void excluirLocal() {
     printf("Local nao encontrado.\n");
 }
 
+int main() {
+    int opcao;
+    do {
+        printf("\n=== MENU DE LOCAIS ===\n");
+        printf("1. Cadastrar local\n");
+        printf("2. Listar locais\n");
+        printf("3. Atualizar local\n");
+        printf("4. Excluir local\n");
+        printf("0. Sair\n");
+        printf("Escolha uma opcao: ");
+        scanf("%d", &opcao);
+
+        switch (opcao) {
+            case 1:
+                cadastrarLocal();
+                break;
+            case 2:
+                listarLocais();
+                break;
+            case 3:
+                atualizarLocal();
+                break;
+            case 4:
+                excluirLocal();
+                break;
+            case 0:
+                printf("Encerrando...\n");
+                break;
+            default:
+                printf("Opcao invalida. Tente novamente.\n");
+        }
+
+    } while (opcao != 0);
+
+    return 0;
+}
