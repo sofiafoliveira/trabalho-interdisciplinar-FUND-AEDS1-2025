@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1750872736 source:c:\users\andre\documents\faculdade\trabalhoaeds\crudlocais\trabalho-interdisciplinar-fund-aeds1-2025\crudlocais\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

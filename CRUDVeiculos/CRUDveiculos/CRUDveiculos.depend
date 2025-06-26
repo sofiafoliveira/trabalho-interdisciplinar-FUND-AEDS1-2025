@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1750874120 source:c:\users\andre\documents\faculdade\trabalhoaeds\crudlocais\trabalho-interdisciplinar-fund-aeds1-2025\crudveiculos\crudveiculos\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
