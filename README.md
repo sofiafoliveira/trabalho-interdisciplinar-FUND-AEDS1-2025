@@ -136,3 +136,92 @@ Nome: São Paulo
 Listar locais
 → Nenhum local cadastrado
 
+------------------------------------------------------------
+
+CRUD de Locais — Módulo de ANDRÉ FORTINI DE MELLO
+
+Descrição:
+Este módulo implementa um CRUD para gerenciar os locais de entrega do sistema, com nome e coordenadas (X, Y), armazenados em vetor estático.
+
+Funcionalidades:
+
+Cadastrar um novo local com:
+*Nome (único)
+*Coordenadas X e Y
+*Listar todos os locais cadastrados.
+*Atualizar as coordenadas de um local pelo nome.
+*Excluir um local pelo nome.
+
+Testes realizados:
+
+*Cadastro de locais com nomes e coordenadas variadas.
+*Verificação de erro ao tentar cadastrar nome duplicado.
+*Atualização de coordenadas de locais existentes.
+*Exclusão de locais e verificação de remoção.
+*Tentativa de atualizar/excluir locais não existentes.
+
+Exemplo de uso:
+Cadastrar local
+Nome: São Paulo
+Coord X: 00.0
+Coord Y: 00.0
+
+Listar locais
+→ Exibe o local cadastrado
+
+Atualizar local
+Nome: São Paulo
+Nova Coord X: 00.0
+Nova Coord Y: 00.0
+
+Excluir local
+Nome: São Paulo
+
+Listar locais
+→ Nenhum local cadastrado
+
+------------------------------------------------------------
+
+Menu de Funcionalidades — Módulo de Larissa Monção de Oliveira
+
+Descrição:
+Menu que será exibido na função main com as funcionalidades do sistema.
+
+Funcionalidades:
+
+ *Cadastrar Local
+ *Listar Locais
+ *Cadastrar Veículo
+ *Listar Veículos
+ *Cadastrar Pedido
+ *Listar Pedidos
+ *Calcular e Exibir Rota de Entrega
+ *Backup de Dados
+ *Restaurar Dados
+ *Sair
+
+
+Testes realizados -------------------
+
+Teste de Backup e Restauração: 
+- Verificar se os dados são salvos e carregados corretamente em arquivos binários.
+  
+
+1. Cadastrar Locais, Veículos e Pedidos.
+2. Executar "Backup de Dados".
+3. Encerrar o programa.
+4. Abrir novamente e executar "Restaurar Dados"
+5. Verificar se os dados restaurados estão corretos (listagens).
+
+
+Teste da Rota de Entrega
+- Verificar se o cálculo da rota funciona corretamente.
+
+1. Criar 3 Locais (A, B, C) com coordenadas específicas.
+2. Cadastrar 2 Veículos, um mais próximo do ponto de origem do pedido.
+3. Criar 1 Pedido com origem A e destino B.
+4. Ação: Excluir um veículo existente.
+5. Resultado Esperado: O veículo não aparece mais na listagem.
+6. Resultado Obtido: Sucesso. O veículo foi removido corretamente
+
+
