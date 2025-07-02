@@ -1,6 +1,12 @@
 # trabalho-interdisciplinar-FUND-AEDS1-2025
 Projeto interdisciplinar entre Fundamentos de Engenharia de Software e Algoritmos e Estruturas de Dados I.
 
+Integrantes:
+- Sofia Figueiredo de Oliveira
+- André Fortini de Mello
+- Lucas Maia Marques Pinheiro
+- Larissa Monção de Oliveira
+
 CRUD de Pedidos — Módulo de Sofia Figueiredo
 
 Descrição:
