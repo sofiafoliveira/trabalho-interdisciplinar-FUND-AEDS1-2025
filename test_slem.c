@@ -312,9 +312,9 @@ static const MunitSuite suite = {
 };
 
 
-int main(int argc, char* argv[]) {
-    int result = munit_suite_main(&suite, NULL, argc, argv);
-system("pause");  // Agora isso será executado
-    return result;
-}
+//int main(int argc, char* argv[]) {
+  //  int result = munit_suite_main(&suite, NULL, argc, argv);
+//system("pause");  // Agora isso será executado
+  //  return result;
+//}
 
