@@ -263,7 +263,7 @@ Teste da Rota de Entrega
 6. Resultado Obtido: Sucesso. O veículo foi removido corretamente
 
 Função: calcularDistancia — Módulo de Larissa Monção
-Descrição
+-Descrição
 A função calcularDistancia() retorna a distância euclidiana entre dois pontos, com base nas coordenadas cartesianas (x, y).
 
 -Como usar
@@ -288,4 +288,29 @@ Comparação dos resultados com cálculo manual.
 -Exemplo de uso
 
 float d = calcularDistancia(3.0, 4.0, 0.0, 0.0); // Resultado: 5.0
+
+Função: salvarDados — Módulo de Sofia Figueiredo
+-Descrição
+Esta função salva os dados atuais dos locais, veículos e pedidos em arquivos, garantindo a persistência do sistema SLEM.
+
+-Como usar
+Chamada automaticamente após qualquer operação de cadastro, atualização ou exclusão. Também pode ser chamada manualmente antes de encerrar o sistema.
+
+-Funcionalidade
+Escreve os vetores locais[], veiculos[], e pedidos[] em arquivos .txt ou .dat.
+
+Utiliza fwrite() (em modo binário) ou fprintf() (modo texto), dependendo da implementação.
+
+Evita perda de dados entre execuções.
+
+-Testes realizados
+Verificação dos arquivos gerados após múltiplos cadastros.
+
+Confirmação de que os dados salvos são carregados corretamente depois.
+
+Teste com estruturas complexas (strings, floats, inteiros).
+
+-Exemplo de uso
+
+salvarDados(); // Persiste todos os dados atuais do sistema
 
