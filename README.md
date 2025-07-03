@@ -9,7 +9,8 @@ Integrantes:
 
 ## Link demonstrando o funcionamento do sistema:
 https://youtu.be/t9HiHqxLNFw
-
+## Link repositório:
+https://github.com/sofiafoliveira/trabalho-interdisciplinar-FUND-AEDS1-2025.git
 ------------------------------------------------------------
 
 CRUD de Pedidos — Módulo de Sofia Figueiredo
