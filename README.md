@@ -262,5 +262,30 @@ Teste da Rota de Entrega
 5. Resultado Esperado: O veículo não aparece mais na listagem.
 6. Resultado Obtido: Sucesso. O veículo foi removido corretamente
 
+Função: calcularDistancia — Módulo de Larissa Monção
+Descrição
+A função calcularDistancia() retorna a distância euclidiana entre dois pontos, com base nas coordenadas cartesianas (x, y).
 
+-Como usar
+É chamada sempre que for necessário exibir ou registrar a distância entre veículo e local de entrega.
+
+-Funcionalidade
+Recebe as coordenadas x1, y1 (do veículo) e x2, y2 (do local).
+
+Utiliza a fórmula da distância euclidiana:
+
+distância = √((x2 - x1)²+(y2 - y1)²) 
+ 
+Retorna um float com a distância calculada.
+
+-Testes realizados
+Casos com coordenadas positivas e negativas.
+
+Distância entre pontos iguais (resultado zero).
+
+Comparação dos resultados com cálculo manual.
+
+-Exemplo de uso
+
+float d = calcularDistancia(3.0, 4.0, 0.0, 0.0); // Resultado: 5.0
 
