@@ -7,6 +7,11 @@ Integrantes:
 - Lucas Maia Marques Pinheiro
 - Larissa Monção de Oliveira
 
+## Link demonstrando o funcionamento do sistema:
+https://youtu.be/t9HiHqxLNFw
+
+------------------------------------------------------------
+
 CRUD de Pedidos — Módulo de Sofia Figueiredo
 
 Descrição:
