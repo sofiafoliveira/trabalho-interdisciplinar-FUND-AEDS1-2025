@@ -188,6 +188,33 @@ Listar locais
 
 ------------------------------------------------------------
 
+Função: restaurarDados — Módulo de Lucas Maia
+Descrição
+Esta função é executada no início do sistema e carrega os dados dos arquivos salvos para os vetores de memória, restaurando o estado anterior da aplicação.
+
+Como usar
+Chamada no início da função main() para garantir que todos os dados estejam carregados antes de interações com o usuário.
+
+Funcionalidade
+Abre os arquivos de dados existentes.
+
+Lê o conteúdo e preenche os vetores locais[], veiculos[] e pedidos[].
+
+Atualiza as variáveis globais qtdLocais, qtdVeiculos, qtdPedidos.
+
+Testes realizados
+Inicialização do sistema com arquivos contendo dados.
+
+Teste de integridade das estruturas após leitura.
+
+Verificação do comportamento quando os arquivos não existem (tratamento de erro).
+
+Exemplo de uso
+
+restaurarDados(); // Carrega os dados salvos e inicializa o sistema
+
+------------------------------------------------------------
+
 Menu de Funcionalidades — Módulo de Larissa Monção de Oliveira
 
 Descrição:
@@ -229,5 +256,6 @@ Teste da Rota de Entrega
 4. Ação: Excluir um veículo existente.
 5. Resultado Esperado: O veículo não aparece mais na listagem.
 6. Resultado Obtido: Sucesso. O veículo foi removido corretamente
+
 
 
